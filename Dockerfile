@@ -1,4 +1,4 @@
- FROM ubuntu
+ FROM ubuntu:20.04
  MAINTAINER zomloa (mvondodave@gmail.com)
  ENV DEBIAN_FRONTEND = noninteractive
  RUN apt-get update 
